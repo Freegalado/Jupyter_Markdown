@@ -7,4 +7,4 @@ Comentarios con el S02 T01:
 
 
 * Al instalar el nbconvert y siguiendo la documentación de la libreria instalé MacTex para exportar los notebook a PDF pero no funcinó, entonces instale MikTex, pudiendo realizar la exportación a html y PDF.
-* Tengo problemas al exportar el PDF con una imagen adjunta, el error arroja un warning "LaTeX Warning: File `attachment:Director_chair.png' not found on input line 435", me instale un editor de Latex y es el mismo problema. El archivo adjunto se encuentra en la misma carpeta que el notebook. Así que te adjunto el ejercicio sin imagen. 
+* El error al exportar el notebook a pdf se ha solucionado cambiando de método para adjuntar la foto, el error mencionaba que la imagen no podía ser cargada, entonces se adjunto mediante la linea de codigo <img src="directory_path.png" width=xxx height=xxx> 
